@@ -97,7 +97,7 @@ class program():
             input(localizer["parts"]["checker"]["finished"])
         elif res == menu_choices[2]:
             settings = sys.load_settings()
-            slchecker = checker.singlelinechecker(settings["antipublic_token"] if settings["antipublic"] is True else "", settings["session"])
+            slchecker = checker.singlelinechecker(settings["session"])
             asyncio.run(slchecker.main())
         elif res == menu_choices[3]:
             sys.edit_settings()
