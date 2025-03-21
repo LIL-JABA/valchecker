@@ -1,1 +1,1 @@
-# valchecker
+If you're searching for valchecker, then you won't find it. I am not proud of this project, so I've made a difficult decision to completely delete it. I am not responsible for any versions/copies of valchecker you can find online, as the one and only original repository was deleted by me.
